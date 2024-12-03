@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor-destaque: #cd3c32;
+    --fundo: #ffe7e7;
+    --dark-10: #121214;
+    --dark-20: #ffff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url(fonte/Archivo-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+   font-family: 'Archivo', sans-serif;
+}
+
+header{
+    background-color: #ffe7e7;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header h1{
+    font-size: 2em;
+    margin: 10px 0px;
+}
+
+header p{
+    font-size: 17px;
+}
+
+button{
+    background-color: #cd3c32;
+    color: var(--dark-20);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--cor-destaque);
+    margin: 15px 0px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .6s;
+}
+
+.destaque{
+    color: var(--cor-destaque);
+}
+
+.feliz-natal{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.feliz-natal img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.doacao{
+    width: 50%;
+}
+
+.loja img{
+    width: 300px;
+    
+}
+
+.presentes{
+    text-align: center;
+    align-items:center ;
+}
+
+.presentes h1{
+    font-size: 2em;
+    margin: 50px 0px 20px 0px;
+}
+
+.presentes p{
+   font-size: 17px;
+}
+
+.presentes img{
+    width: 350px;
+}
+
+.decoracao{
+    margin: 100px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.decoracao h1{
+    font-size: 2em;
+    margin: 10px;
+}
+
+.decoracao p{
+    font-size: 17px;
+}
+
+.decoracao img{
+    width: 350px;
+}
+
+.decoracao > section{
+    width: 40%;
+    margin: 10px;
+}
+
+footer{
+    background-color: #ffe7e7;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#feliz{
+    display: flex;
+    align-items: center;
+}
+
+.icones img{
+    margin-left: 30px;
+}
+
+.icones img:hover{
+    transform: scale(1.2);
+    transition: .6s;
+}

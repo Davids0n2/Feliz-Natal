@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 720px) {
+    
+    .feliz-natal{
+        width:50%;
+        margin: 0 auto;
+    
+    }
+    .doacao{
+        width: 100%;
+        text-align: center;
+    }
+
+    .doacao h1{
+        font-size: 1.9em;
+    }
+
+    article img{
+        width: 10px;
+    }
+
+    .decoracao > section{
+        width: 80%;
+        text-align: center;
+    }
+
+    
+}
